@@ -280,9 +280,6 @@ body{
     background-color: rgb(35, 144, 240);
     font-size: xx-large;
 }
-#bilgi option{
-    background-color: rgba(71, 70, 70, 0.5);
-}
 /*
 
     content: '';
@@ -358,4 +355,14 @@ img[alt="jüpiter"]{
     position: relative;
     top: 160px;
     right: 20px;
+}
+#alper{
+    width: 200px;
+    height: 40px;
+    background: red;
+}
+#genel{
+    width: 200px;
+    height: 30px;
+    font-size: 40px;
 }
