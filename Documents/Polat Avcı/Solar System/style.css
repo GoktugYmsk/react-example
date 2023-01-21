@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Italianno',sans-serif;
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/space.jpeg);
+
+}
+.container{
+    position: relative ;
+    width: 50%;
+}
+.daire{
+    position: relative;
+    height: 2000px;
+    min-width: 100vh;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+   10px 50px 70px rgba(0, 0, 0, 0.25);
+    inset: 5px 5px 10px  rgba(0, 0, 0, 0.25);
+    inset: 5px 5px 20px  rgba(255, 255, 255, 0.2);
+    inset: -5px -5px 15px  rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.merk{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(245, 244, 244, 0.25);
+    border-radius: 100px;
+    color: red;
+    align-items: flex-start;
+}
+.ven{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 200px;
+    color: aliceblue;
+    align-items: flex-start;
+
+}
+.dunya{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 300px;
+    color: orange;
+    align-items: flex-start;
+
+}
+.mars{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 400px;
+    color: pink;
+    align-items: flex-start;
+
+}
+.jptr{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 500px;
+    color: green;
+    align-items: flex-start;
+
+}
+.strn{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 600px;
+    color: blue;
+    align-items: flex-start;
+
+}
+.urans{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 700px;
+    color: brown;
+    align-items: flex-start;
+
+}
+.npt{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    border: 2px solid  rgba(245, 244, 244, 0.25);
+    border-radius: 800px;
+    color: purple;
+
+}
+
+
+/*
+.daire i{
+    margin-right: 180px;
+    position: absolute;
+    width: 3px;
+    height: 40%;
+    background: red;
+    opacity: 0.75;
+    transform-origin: bottom;
+    transform: scaleY(0.5);
+}
+*/
+.merk::before
+{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(255, 37, 37);
+    box-shadow: 10 10 40px red;
+    top: 10px;
+}
+.ven::before{
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 40px red;
+    top: 50px;
+}
+.dunya::before{
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 40px red;
+    top: 90px;
+}
+.mars::before{
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 40px red;
+    top: 130px;
+}
+.jptr::before{
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 40px red;
+    top: 170px;
+}
+.strn::before{
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 40px red;
+    top: 210px;
+}
+.urans::before{
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(255, 37, 37);
+    box-shadow: 0 0 40px red;
+    top: 250px;
+}
+
+.npt::before{
+
+
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(255, 37, 37);
+    box-shadow: 0 0 40px red;
+    top: 290px;
+
+    top: 290px;
+    left: 290px;
+    right: 290px;
+    bottom: 290px;
+    z-index: 1000;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+#bilgi>button{
+    background: red;
+}
+.npt::after{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 1000;
+    z-index: 1;
+    filter: blur(10px);
+}
+
+
+
+
+
+
+
+
+
+
+.box{
+    background: white;
+    width: 600px;
+    margin-bottom: 1200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: xx-large;
+}
+#bilgi{
+
+    width: 200px;
+    margin-left: 900px;
+    margin-bottom: 1200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 144, 240);
+    font-size: xx-large;
+}
+#bilgi option{
+    background-color: rgba(71, 70, 70, 0.5);
+}
+/*
+
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    box-shadow: 0 0 40px red;
+    top: 290px;
+
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.npt::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 50%;
+    background: red;
+    z-index: 1000;
+    z-index: 1;
+    filter: blur(10px);
+}
+*/
+
+.button{
+    margin-top: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.button >button{
+    margin-top: 400px;
+    width: 200px;
+    height: 40px;
+    background: red;
+}
+img[alt="Dünya"]{
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 85px;
+    right: 13px;
+}
+img[alt="mars"]{
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    right: 13px;
+}
+img[alt="jüpiter"]{
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: 160px;
+    right: 20px;
+}
