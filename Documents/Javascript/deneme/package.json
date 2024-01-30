@@ -1,11 +1,22 @@
 {
-  "name": "deneme",
+  "name": "gktkill",
   "version": "1.0.0",
-  "description": "",
+  "description": "Satıra Merhaba ile başlar",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "GoktugYmsk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoktugYmsk/My-pages.git"
+  },
+  "keywords": [
+    "MacLAcr8793kdd"
+  ],
+  "bugs": {
+    "url": "https://github.com/GoktugYmsk/My-pages/issues"
+  },
+  "homepage": "https://github.com/GoktugYmsk/My-pages#readme"
 }
